@@ -176,7 +176,7 @@
 
         var speed = parseFloat(banner.getAttribute('data-parallax')) || 0.3;
         var progress = (rect.top / window.innerHeight);
-        var offset = progress * speed * 600;
+        var offset = progress * speed * 250;
 
         img.style.transform = 'translateY(' + offset + 'px)';
       });
